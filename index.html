@@ -17,17 +17,56 @@
 
 
         <!-- triangle card -->
-        <div>    
+        <div class="flex flex-col md:flex-row  ">
+
+          <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">    
 
             <!-- shape card container -->
             <div class="card card-compact bg-base-100 w-96 shadow-xl">
                 <figure>
                   <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    src="images/triangle.png"
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
+                  <h2 class="card-title">Triangle!</h2>
+                  <p>Area = 0.5 X B X h</p>
+                 <div class="mr-4 ml-2">
+                  <input class="w-24 text-2xl p-2 rounded-sm"  type="text" placeholder="b">
+                  <span>cm</span>
+                  <input class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+                  <span>cm</span>
+                 </div>
+
+                  <div class="card-actions ">
+                    <button class="btn btn-primary w-full">Calculate</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="images/rectangle.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">rectangle!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="images/parallelogram.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Parallelogram!</h2>
                   <p>If a dog chews shoes whose shoes does he choose?</p>
                   <div class="card-actions justify-end">
                     <button class="btn btn-primary">Buy Now</button>
@@ -37,71 +76,10 @@
 
         </div>
 
-         <!-- rectangular card -->
-         <div>    
-
-            <!-- shape card container -->
-            <div class="card card-compact bg-base-100 w-96 shadow-xl">
-                <figure>
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-
-        </div>
-
-         <!-- triangle card -->
-         <div>    
-
-            <!-- shape card container -->
-            <div class="card card-compact bg-base-100 w-96 shadow-xl">
-                <figure>
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-
-        </div>
-
-
-         <div>    
-
-            <!-- shape card container -->
-            <div class="card card-compact bg-base-100 w-96 shadow-xl">
-                <figure>
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-
-        </div>
   <!-- area calculation container -->
-        <div class="w-96">
-          
+        <div class="w-96 border-2 border-lightgray-700 rounded-md">
+          <h3 class="text-3xl text-center p-4">area calculation</h3>
+        </div>
         </div>
     </main>
 </body>
